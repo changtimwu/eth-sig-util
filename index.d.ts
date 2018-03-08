@@ -15,7 +15,7 @@ declare namespace ethsig {
     function extractPublicKey(msgParams: MsgParam): string;
     function typedSignatureHash(typedData: TypedData[]): string;
     function signTypedData(privateKey: Buffer, msgParams: MsgParam): string;
-    function recoverTypedSignature(msgParams: MsgParam);
+    function recoverTypedSignature(msgParams: MsgParam): string;
 }
 
 export = ethsig
