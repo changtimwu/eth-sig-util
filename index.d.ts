@@ -1,3 +1,4 @@
+import {Buffer} from 'buffer'
 declare namespace ethsig {
     interface TypedData {
         name: string;
